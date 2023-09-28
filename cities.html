@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Assignment</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" 
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" 
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="cities.html">A Few Cities</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarcities">
+        <ul class="navbar-nav me-auto">
+          
+          <li class="nav-item">
+            <a class="nav-link" href="basic.html" target="_blank">Basic</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="advanced.html" target="_blank">Advanced</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <h2>Visit cities with Navyasree Sriperumbudoor</h2>
+    <br><br>
+    <h4>San Diego</h4>
+    <h4>Rome</h4>
+    <h4>Istanbul</h4>
+    <h4>Paris</h4>
+    <h4>Erbil</h4>
+    <h4>Rajkot</h4>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2">S</div>
+            <div class="col-sm-2">R</div>
+            <div class="col-sm-2">I</div>
+            <div class="col-sm-2">P</div>
+            <div class="col-sm-2">E</div>
+            <div class="col-sm-2">R</div>
+        </div>
+        <div class="row">
+            <div class="col-md">San Diego</div>
+            <div class="col-md">Rome</div>
+            <div class="col-md">Istanbul</div>
+            <div class="col-md">Paris</div>
+            <div class="col-md">Erbil</div>
+            <div class="col-md">Rajkot</div>
+
+        </div>
+    </div>
+    
+<p>After resizing the page using browser we observe that initially the city names and the last name letters
+     are presented in a horizontal row and then both the city names and last letters are stacked one after the other.initially first the city row breaks.</p>
+
+     <div class="container">
+      <img src="city1.jpg" class="img-fluid" alt="Hyderabad" style="height: 400px;width: 400px;">
+      <img src="city2.jpg" class="img-fluid" alt="Chennai" style="height: 400px;width: 400px;">
+      <img src="city3.jpg" class="img-fluid" alt="Banglore" style="height: 400px;width: 400px;">
+    </div>
+    <div>
+      <img src="city1.jpg" class="img-thumbnail" alt="Hyderabad" style="height: 400px;width: 400px;">
+      <img src="city2.jpg" class="img-thumbnail" alt="Chennai" style="height: 400px;width: 400px;">
+      <img src="city3.jpg" class="img-thumbnail" alt="Banglore" style="height: 400px;width: 400px;">
+    </div>
+    <table class="table table-success table-sm table-striped table-hover table-bordered caption-top">
+      <caption><b>List of Letter, City, River and Tree</b></caption>
+      <thead class="table-dark">
+        <th scope="col">Letter</th>
+        <th scope="col">City</th>
+        <th scope="col">River</th>
+        <th scope="col">Tree</th>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">S</td>
+          <td>San Diego</td>
+          <td>Sabine</td>
+          <td>Sandalwood</td>
+        </tr>
+        <tr>
+          <th scope="row">R</td>
+          <td>Rome</td>
+          <td>Ruby</td>
+          <td>Redbud</td>
+        </tr>
+        <tr>
+          <th scope="row">I</td>
+          <td>Istanbul</td>
+          <td>Iditarod</td>
+          <td>Inkwood</td>
+        </tr>
+        <tr>
+          <th scope="row">P</td>
+          <td>Paris</td>
+          <td>Pack</td>
+          <td>Pea</td>
+        </tr>
+        <tr>
+          <th scope="row">E</td>
+          <td>Erbil</td>
+          <td>Econfina</td>
+          <td>Elm</td>
+        </tr>
+        <tr>
+          <th scope="row">R</td>
+          <td>Rajkot</td>
+          <td>Rio Ruidoso</td>
+          <td>Redwood</td>
+        </tr>
+      </tbody>
+    </table>
+
+  <label>BUTTONS</label>
+  <br>
+  <button class="btn">S</button>
+  <button class="btn">R</button>
+  <button class="btn">I</button>
+  <button class="btn">P</button>
+  <button class="btn">E</button>
+  <button class="btn">R</button>
+  <br>
+  <label>BUTTON GROUPS</label>
+  <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+    <div class="btn-group me-2" role="group" aria-label="3 letters">
+      <button type="button" class="btn btn-success">S</button>
+      <button type="button" class="btn btn-success">R</button>
+      <button type="button" class="btn btn-success">I</button>
+    </div>
+    <div class="btn-group me-2" role="group" aria-label="2 letters">
+      <button type="button" class="btn btn-warning">P</button>
+      <button type="button" class="btn btn-warning">E</button>
+    </div>
+    <div class="btn-group me-2" role="group" aria-label="2 letters">
+      <button type="button" class="btn btn-danger">R</button>
+    </div>
+  </div>
+  <br>
+  <label>DROPDOWN :</label>
+  <button class="dropdown-toggle btn btn-primary" id="dropdownbutton" type="button" data-bs-toggle="dropdown"
+    aria-expanded="false">
+    Pages
+  </button>
+  <div class="dropdown-menu" style="background-color:wheat;">
+    <a href="basic.html" class="dropdown-item">Basic page</a>
+    <a href="advanced.html" class="dropdown-item">Advanced page</a>
+  </div>
+  <br><br>
+  <label>Forms</label>
+  <form>
+    <div class="mb-3 form-group">
+      <label for="exampleInputEmail1" class="form-label">email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="mb-3 form-group">
+      <label for="City" class="form-label">City</label>
+      <input type="text" class="form-control" id="City" aria-describedby="City" placeholder="Enter your city">
+    </div>
+    <div class="mb-3 form-check">
+      <label for="formcheck" class="check-label">Sign up for newsletter?</label>
+      <input type="checkbox" class="form-check-input" id="formcheck" aria-describedby="Check">
+    </div>
+    <button class="btn btn-primary" type="Submit">Submit</button>
+  </form>
+  <br>
+  <label>Cards</label><br>
+  <div class="row">
+    <div class="card me-2" style="width: 18rem;">
+      <img src="city1.jpg" class="card-img-top" alt="San Diego">
+      <div class="card-body">
+        <h6>San Diego</h6>
+        <p class="card-text">San Diego is a city in the U.S. state of California located 
+          alongside the Pacific Ocean in Southern California.
+          With a population of over 1.3 million residents, the city is the eighth-most populous
+           in the United States and the second-most populous in California after Los Angeles.</p>        
+          <a href="https://en.wikipedia.org/wiki/San_Diego" class="btn btn-primary">More Info</a>
+      </div>
+    </div>
+    <div class="card me-2" style="width: 18rem;">
+      <img src="city2.jpg" class="card-img-top" alt="Rome">
+      <div class="card-body">
+        <h6>Rome</h6>
+        <p class="card-text">Rome is the capital city of Italy.
+          It is also the capital of the Lazio region, the centre of the Metropolitan City of Rome.
+          With 2,860,009 residents in 1,285 km2 (496.1 sq mi) Rome is the country's most populated comune and the third most populous city in the European Union by population within city limits.
+          The Metropolitan City of Rome, with a population of 4,355,725 residents, is the most populous metropolitan city in Italy.</p>
+        <a href="https://en.wikipedia.org/wiki/Rome" class="btn btn-primary">More Info</a>
+      </div>
+    </div>
+    <div class="card me-2" style="width: 18rem;">
+      <img src="city3.jpg" class="card-img-top" alt="Istanbul">
+      <div class="card-body">
+        <h6>Istanbul</h6>
+        <p class="card-text">Istanbul formerly known as Constantinople is the largest city in Turkey, serving as the country's economic, cultural and historic hub.
+          The city straddles the Bosporus strait, lying in both Europe and Asia, and has a population of over 15 million residents, comprising 19% of the population of Turkey.
+          Istanbul is the most populous European city and the world's 15th-largest city.</p>
+        <a href="https://en.wikipedia.org/wiki/Istanbul" class="btn btn-primary">More Info</a>
+      </div>
+    </div>
+  </div>
+
+
+
+</body>
+</html>
